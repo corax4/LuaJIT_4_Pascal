@@ -4,3 +4,4 @@
 
 ## Usage  
 See the sample project. (Needs lua51.dll or libluajit.so)     
+It’s better to compile the latest LuaJIT libraries yourself.
