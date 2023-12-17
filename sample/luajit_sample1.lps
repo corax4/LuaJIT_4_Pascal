@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="luajit_sample1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="12" Y="17"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="luajit_sample1_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos Y="31"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\luajit.pas"/>
+        <UnitName Value="LuaJIT"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1073"/>
+        <CursorPos X="29" Y="1078"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="luajit_sample1_unit.pas"/>
+        <Caret Line="90" Column="50" TopLine="62"/>
+      </Position1>
+      <Position2>
+        <Filename Value="luajit_sample1_unit.pas"/>
+        <Caret Line="12" Column="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="luajit_sample1_unit.pas"/>
+        <Caret Line="35" Column="17" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="luajit_sample1_unit.pas"/>
+        <Caret Line="31" Column="35"/>
+      </Position4>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

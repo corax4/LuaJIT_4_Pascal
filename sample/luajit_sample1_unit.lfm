@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 344
+  Height = 434
+  Top = 159
+  Width = 608
+  Caption = 'Form1'
+  ClientHeight = 434
+  ClientWidth = 608
+  Position = poDesktopCenter
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 608
+    Align = alTop
+    ClientHeight = 50
+    ClientWidth = 608
+    TabOrder = 0
+    object btnRun: TButton
+      Left = 16
+      Height = 33
+      Top = 8
+      Width = 112
+      Caption = 'Run'
+      TabOrder = 0
+      OnClick = btnRunClick
+    end
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 262
+    Top = 50
+    Width = 608
+    Align = alClient
+    Font.Name = 'Courier New'
+    Lines.Strings = (
+      'print("hello")'
+      'v1 = 1'
+      'v2 = 1'
+      'for i = 1, 123456789 do'
+      '  v2 = v1 + v2'
+      '  v1 = v1 + 1'
+      'end'
+      'print(v2)'
+      ''
+      '-- FFI'
+      'local ffi = require("ffi")'
+      'if ffi.os ~= "OSX" then'
+      '  ffi.cdef[['
+      '    typedef struct {uint8_t b; int32_t i; const char * c;} TSomeStruct;'
+      '    int32_t test_fn(TSomeStruct);'
+      '  ]]'
+      '  local tss = ffi.new("TSomeStruct")'
+      '  tss.b = 4'
+      '  tss.i = -12'
+      '  tss.c = ''qwerty'''
+      '  -- call func from main app  '
+      '  local val = ffi.C.test_fn(tss)'
+      '  print(val)'
+      'end'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+    WordWrap = False
+  end
+  object Memo2: TMemo
+    Left = 0
+    Height = 122
+    Top = 312
+    Width = 608
+    Align = alBottom
+    Font.Name = 'Courier New'
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 2
+    WordWrap = False
+  end
+end
